@@ -7,9 +7,6 @@
         public string Name { get; set; }
         public string Comments { get; set; }
         public int ColorId { get; set; }
-        public virtual Color Color
-        {
-            get; set;
-        }
+        public Color Color { get; set; }
     }
 }

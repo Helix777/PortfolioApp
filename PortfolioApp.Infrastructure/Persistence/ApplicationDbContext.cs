@@ -26,6 +26,7 @@ namespace PortfolioApp.Infrastructure.Persistence
             .Property(e => e.Name)
             .HasMaxLength(200);
 
+
             foreach (var item in DummyColors.Get())
             {
                 modelBuilder.Entity<Color>().HasData(item);
